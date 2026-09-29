@@ -1,0 +1,48 @@
+# ULTRAS_TPA configuration  |  Developer: UC_Hussein
+
+# Seconds before a request expires.
+request-expiration: 60
+# Seconds a player must wait between two sent requests.
+send-cooldown: 15
+# Seconds of countdown after a request is accepted.
+teleport-countdown: 3
+# Cancel the teleport if the travelling player moves to another block.
+cancel-on-move: true
+# Cancel pending requests / countdowns when one of the two players disconnects.
+# If false, requests stay valid until they expire (players who log back in can still answer them).
+cancel-on-quit: true
+
+# Worlds (by name) where teleport requests are not allowed (sending, accepting and the final teleport).
+# You can edit this list here, or manage it in game: /uc_tpa world disable|enable|list [world]
+disabled-worlds: []
+
+# Automatic acceptance: players can turn it on with /tpauto, /tpa auto or in /tpasetting.
+auto-accept:
+  # Set to false to remove the feature from the server completely.
+  enabled: true
+  # Also auto-accept /tpahere requests (the player is moved to the sender). Set to false to keep those manual.
+  allow-tpahere: true
+
+language:
+  default: EN
+  allowed:
+    - EN
+    - AR
+
+sounds:
+  enabled: true
+
+actionbar:
+  enabled: true
+
+auto-open-gui:
+  default: false
+
+player-info:
+  enabled: true
+  show-world: true
+  show-location: true
+
+# Try to take over /tpa, /tpahere, /tpaccept, /tpadeny, /tpacancel, /tpasetting from other plugins.
+command-override:
+  enabled: true

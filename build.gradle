@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.ultras'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    // Bytecode level 21 = the minimum Java for Paper 1.21+, and it runs unchanged on Java 25.
+    options.release = 21
+}
+
+processResources {
+    filesMatching('plugin.yml') {
+        expand(version: project.version)
+    }
+}
+
+jar {
+    archiveBaseName = 'ULTRAS_TPA'
+    archiveVersion = project.version
+}

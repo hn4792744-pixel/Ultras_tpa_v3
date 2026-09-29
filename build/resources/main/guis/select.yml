@@ -1,0 +1,27 @@
+# Layout file. Item name/lore come from the active language file (gui.<gui>.<item>.*).
+# Add "name:" and/or "lore:" (MiniMessage) under any item to override them for every language.
+# Every item also supports: material, slot, amount, glow, custom-model-data, enchants: {sharpness: 1}
+
+rows: 3
+filler:
+  enabled: true
+  material: BLACK_STAINED_GLASS_PANE
+
+items:
+  head:
+    slot: 13
+    material: PLAYER_HEAD
+  tpa:
+    slot: 11
+    material: ENDER_PEARL
+    glow: true
+  tpahere:
+    slot: 15
+    material: ENDER_EYE
+    glow: true
+  back:
+    slot: 18
+    material: ARROW
+  close:
+    slot: 26
+    material: BARRIER

@@ -1,0 +1,246 @@
+# ULTRAS_TPA language file (MiniMessage). Placeholders: <player>, <seconds>, <world>, <x>, <y>, <z>, <worlds>, <page>, <pages>, <type>, <language>.
+
+prefix: "<gradient:#5a0000:#b00020:#e01b3c><bold>ULTRAS</bold></gradient> <dark_gray>|</dark_gray> "
+language-name: "العربية"
+players-only: "<#a4161a>✕ <#b9b9c0>هذا الأمر متاح للاعبين فقط."
+no-permission: "<#a4161a>✕ <#b9b9c0>ليس لديك صلاحية لفعل ذلك."
+player-not-found: "<#e0b84a>⚠ <#b9b9c0>اللاعب <white><player></white> غير موجود."
+player-offline: "<#e0b84a>⚠ <#b9b9c0>اللاعب <white><player></white> غير متصل."
+cannot-self: "<#a4161a>✕ <#b9b9c0>لا يمكنك الانتقال إلى نفسك."
+cannot-send-self: "<#e0b84a>⚠ <#b9b9c0>لا يمكنك إرسال طلب لنفسك."
+request-sent-tpa: "<#c1121f>◇ <#b9b9c0>تم إرسال طلب TPA إلى <white><player></white> <dark_gray>•</dark_gray> <seconds>s <dark_gray>»</dark_gray> <cancel>"
+request-received-tpa: "<#c1121f>◇ <#b9b9c0>طلب TPA جديد من <white><player></white> <dark_gray>•</dark_gray> <seconds>s <open>"
+accepted-tpa: "<#5fbf7a>✓ <#b9b9c0>قَبِل <white><player></white> طلب TPA الخاص بك."
+denied-tpa: "<#a4161a>✕ <#b9b9c0>رفض <white><player></white> طلب TPA الخاص بك."
+target-disabled-tpa: "<#e0b84a>⚠ <#b9b9c0><white><player></white> عطّل استقبال TPA."
+request-sent-tpahere: "<#c1121f>◇ <#b9b9c0>تم إرسال طلب TPAHERE إلى <white><player></white> <dark_gray>•</dark_gray> <seconds>s <dark_gray>»</dark_gray> <cancel>"
+request-received-tpahere: "<#c1121f>◇ <#b9b9c0>طلب TPAHERE جديد من <white><player></white> <dark_gray>•</dark_gray> <seconds>s <open>"
+accepted-tpahere: "<#5fbf7a>✓ <#b9b9c0>قَبِل <white><player></white> طلب TPAHERE الخاص بك."
+denied-tpahere: "<#a4161a>✕ <#b9b9c0>رفض <white><player></white> طلب TPAHERE الخاص بك."
+target-disabled-tpahere: "<#e0b84a>⚠ <#b9b9c0><white><player></white> عطّل استقبال TPAHERE."
+you-accepted: "<#5fbf7a>✓ <#b9b9c0>لقد قبلت طلب <white><player></white>."
+you-denied: "<#a4161a>✕ <#b9b9c0>لقد رفضت طلب <white><player></white>."
+no-pending: "<#c1121f>◇ <#b9b9c0>لا توجد طلبات انتقال معلقة."
+no-request-from: "<#e0b84a>⚠ <#b9b9c0>لا يوجد طلب معلق من <white><player></white>."
+blocked-by-target: "<#a4161a>✕ <#b9b9c0>لا يمكنك إرسال طلبات إلى <white><player></white>."
+already-pending: "<#e0b84a>⚠ <#b9b9c0>لديك طلب معلق بالفعل."
+cooldown: "<#e0b84a>⚠ <#b9b9c0>الرجاء الانتظار <seconds>s قبل إرسال طلب آخر."
+request-unavailable: "<#e0b84a>⚠ <#b9b9c0>هذا الطلب لم يعد متاحًا."
+cancel-unavailable: "<#e0b84a>⚠ <#b9b9c0>طلب الانتقال لم يعد متاحًا."
+request-cancelled-sender: "<#c1121f>◇ <#b9b9c0>تم إلغاء طلب الانتقال إلى <white><player></white>."
+request-cancelled-target: "<#c1121f>◇ <#b9b9c0>تم إلغاء طلب الانتقال من <white><player></white>."
+request-expired: "<#c1121f>◇ <#b9b9c0>انتهت مدة طلب الانتقال من <white><player></white>."
+request-timed-out: "<#e0b84a>⚠ <#b9b9c0>انتهت مهلة طلب الانتقال."
+request-left: "<#e0b84a>⚠ <#b9b9c0>تم إلغاء الطلب لأن <white><player></white> غادر السيرفر."
+teleporting: "<#c1121f>◇ <#b9b9c0>جارٍ الانتقال إلى <white><player></white>، الرجاء الانتظار..."
+countdown-actionbar: "<#c1121f>◇ <#b9b9c0>إلى <white><player></white> <dark_gray>•</dark_gray> <#c1121f><seconds>s"
+countdown-chat: "<#c1121f>◇ <#b9b9c0>الانتقال إلى <white><player></white> خلال <seconds>s"
+teleport-success: "<#5fbf7a>✓ <#b9b9c0>تم الانتقال إلى <white><player></white> بنجاح."
+teleport-success-actionbar: "<#5fbf7a>◇ تم الانتقال ✓"
+teleport-cancelled-moved: "<#a4161a>✕ <#b9b9c0>تم إلغاء الانتقال إلى <white><player></white> لأنك تحركت."
+teleport-cancelled-left: "<#e0b84a>⚠ <#b9b9c0>تم إلغاء الانتقال لأن <white><player></white> غادر."
+teleport-failed: "<#e0b84a>⚠ <#b9b9c0>فشل الانتقال."
+not-allowed-here: "<#e0b84a>⚠ <#b9b9c0>الانتقال غير مسموح في هذا العالم."
+already-teleporting: "<#e0b84a>⚠ <#b9b9c0>هناك عملية انتقال جارية بالفعل."
+player-blocked: "<#c1121f>◇ <#b9b9c0>لقد حظرت <white><player></white>."
+player-unblocked: "<#c1121f>◇ <#b9b9c0>لقد ألغيت حظر <white><player></white>."
+cannot-block-self: "<#e0b84a>⚠ <#b9b9c0>لا يمكنك حظر نفسك."
+sounds-on: "<#c1121f>◇ <#b9b9c0>تم تفعيل الأصوات."
+sounds-off: "<#c1121f>◇ <#b9b9c0>تم تعطيل الأصوات."
+reloaded: "<#5fbf7a>✓ <#b9b9c0>تمت إعادة تحميل الإعدادات."
+unknown-sub: "<#e0b84a>⚠ <#b9b9c0>أمر فرعي غير معروف."
+usage-block: "<#e0b84a>⚠ <#b9b9c0>الاستخدام: /uc_tpa block (الاسم)"
+auto-accepted-tpa: "<#5fbf7a>✓ <#b9b9c0>تم قبول طلب TPA من <white><player></white> تلقائيًا."
+auto-accepted-tpahere: "<#5fbf7a>✓ <#b9b9c0>تم قبول طلب TPAHERE من <white><player></white> تلقائيًا."
+auto-accept-on: "<#5fbf7a>✓ <#b9b9c0>تم تفعيل القبول التلقائي. سيتم قبول الطلبات الواردة تلقائيًا."
+auto-accept-off: "<#c1121f>◇ <#b9b9c0>تم تعطيل القبول التلقائي."
+auto-accept-unavailable: "<#e0b84a>⚠ <#b9b9c0>القبول التلقائي غير متاح في هذا السيرفر."
+usage-auto: "<#e0b84a>⚠ <#b9b9c0>الاستخدام: /tpauto (on|off)"
+target-world-disabled: "<#e0b84a>⚠ <#b9b9c0><white><player></white> في عالم <world> الذي تم تعطيل الانتقال فيه."
+world-disabled: "<#5fbf7a>✓ <#b9b9c0>تم تعطيل الانتقال في العالم <world>."
+world-enabled: "<#5fbf7a>✓ <#b9b9c0>تم تفعيل الانتقال في العالم <world>."
+world-already-disabled: "<#e0b84a>⚠ <#b9b9c0>الانتقال معطّل بالفعل في العالم <world>."
+world-already-enabled: "<#e0b84a>⚠ <#b9b9c0>الانتقال مفعّل بالفعل في العالم <world>."
+world-not-found: "<#e0b84a>⚠ <#b9b9c0>العالم <world> غير موجود."
+world-list: "<#c1121f>◇ <#b9b9c0>العوالم المعطّلة: <worlds>"
+world-list-empty: "<#c1121f>◇ <#b9b9c0>لا يوجد عالم تم تعطيل الانتقال فيه."
+usage-world: "<#e0b84a>⚠ <#b9b9c0>الاستخدام: /uc_tpa world (disable|enable|list) [العالم]"
+button-open: "<gradient:#8b0000:#e01b3c>[فتح]</gradient>"
+button-cancel: "<gradient:#8b0000:#e01b3c>[إلغاء]</gradient>"
+state-on: "<#5fbf7a>مفعّل"
+state-off: "<#c94c58>معطّل"
+state-blocked: "<#c94c58>محظور"
+state-allowed: "<#5fbf7a>مسموح"
+type-tpa: "TPA"
+type-tpahere: "TPAHERE"
+info-status: "<#b9b9c0>الحالة: <#5fbf7a>متصل"
+info-world: "<#b9b9c0>العالم: <white><world>"
+info-location: "<#b9b9c0>الموقع: <white><x>, <y>, <z>"
+gui:
+  players:
+    title: "<gradient:#5a0000:#b00020:#e01b3c>ULTRAS</gradient> <dark_gray>»</dark_gray> اختر لاعبًا"
+    head:
+      name: "<white><player>"
+      lore:
+        - "<gray>اضغط لاختيار هذا اللاعب"
+    previous:
+      name: "<gray>الصفحة السابقة <dark_gray>(<page>/<pages>)"
+      lore: []
+    next:
+      name: "<gray>الصفحة التالية <dark_gray>(<page>/<pages>)"
+      lore: []
+    close:
+      name: "<#c94c58>إغلاق"
+      lore: []
+  select:
+    title: "<gradient:#5a0000:#b00020:#e01b3c>ULTRAS</gradient> <dark_gray>»</dark_gray> خيارات اللاعب"
+    head:
+      name: "<white><player>"
+      lore: []
+    tpa:
+      name: "<#c1121f>TPA"
+      lore:
+        - "<gray>اطلب الانتقال إلى <white><player>"
+    tpahere:
+      name: "<#c1121f>TPA HERE"
+      lore:
+        - "<gray>اطلب من <white><player></white> الانتقال إليك"
+    back:
+      name: "<gray>رجوع"
+      lore: []
+    close:
+      name: "<#c94c58>إغلاق"
+      lore: []
+  request:
+    title: "<gradient:#5a0000:#b00020:#e01b3c>ULTRAS</gradient> <dark_gray>»</dark_gray> طلب انتقال"
+    head:
+      name: "<white><player>"
+      lore:
+        - "<gray>النوع: <white><type>"
+        - "<gray>ينتهي خلال: <white><seconds>s"
+    accept:
+      name: "<#5fbf7a>قبول"
+      lore:
+        - "<gray>قبول هذا الطلب"
+    deny:
+      name: "<#c94c58>رفض"
+      lore:
+        - "<gray>رفض هذا الطلب"
+    block:
+      name: "<#e0b84a>حظر اللاعب"
+      lore:
+        - "<gray>رفض وحظر <white><player>"
+    back:
+      name: "<gray>رجوع"
+      lore: []
+  requests:
+    title: "<gradient:#5a0000:#b00020:#e01b3c>ULTRAS</gradient> <dark_gray>»</dark_gray> الطلبات الواردة"
+    head:
+      name: "<white><player>"
+      lore:
+        - "<gray>النوع: <white><type>"
+        - "<gray>ينتهي خلال: <white><seconds>s"
+        - ""
+        - "<#c1121f>اضغط للفتح"
+    close:
+      name: "<#c94c58>إغلاق"
+      lore: []
+  settings:
+    title: "<gradient:#5a0000:#b00020:#e01b3c>ULTRAS</gradient> <dark_gray>»</dark_gray> الإعدادات"
+    receive-all:
+      name: "<c>جميع الطلبات"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>السماح بجميع طلبات الانتقال أو منعها"
+        - "<dark_gray>اضغط للتبديل"
+    receive-tpa:
+      name: "<c>طلبات TPA"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>استقبال طلبات الانتقال إليك"
+        - "<dark_gray>اضغط للتبديل"
+    receive-tpahere:
+      name: "<c>طلبات TPAHERE"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>استقبال طلبات الانتقال إلى لاعب"
+        - "<dark_gray>اضغط للتبديل"
+    sounds:
+      name: "<c>الأصوات"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>أصوات ULTRAS لك أنت فقط"
+        - "<dark_gray>اضغط للتبديل"
+    auto-open:
+      name: "<c>فتح الطلب تلقائيًا"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>فتح قائمة الطلب عند وصوله"
+        - "<dark_gray>اضغط للتبديل"
+    show-info:
+      name: "<c>إظهار معلوماتي"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>السماح للآخرين برؤية عالمك وموقعك"
+        - "<dark_gray>اضغط للتبديل"
+    actionbar:
+      name: "<c>العد التنازلي فوق القلوب"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>عرض العد التنازلي فوق القلوب"
+        - "<dark_gray>اضغط للتبديل"
+    auto-accept:
+      name: "<c>القبول التلقائي"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>قبول الطلبات الواردة تلقائيًا"
+        - "<dark_gray>اضغط للتبديل"
+    language:
+      name: "<#c1121f>اللغة"
+      lore:
+        - "<gray>الحالية: <white><language>"
+        - "<dark_gray>اضغط للتبديل"
+    block-players:
+      name: "<#c1121f>حظر اللاعبين"
+      lore:
+        - "<gray>تحكم في من يستطيع مراسلتك بالطلبات"
+    close:
+      name: "<#c94c58>إغلاق"
+      lore: []
+  block:
+    title: "<gradient:#5a0000:#b00020:#e01b3c>ULTRAS</gradient> <dark_gray>»</dark_gray> حظر اللاعبين"
+    head:
+      name: "<c><player>"
+      lore:
+        - "<state>"
+        - ""
+        - "<dark_gray>اضغط للتبديل"
+    previous:
+      name: "<gray>الصفحة السابقة <dark_gray>(<page>/<pages>)"
+      lore: []
+    next:
+      name: "<gray>الصفحة التالية <dark_gray>(<page>/<pages>)"
+      lore: []
+    back:
+      name: "<gray>رجوع"
+      lore: []
+    close:
+      name: "<#c94c58>إغلاق"
+      lore: []
+help:
+  - "<gradient:#5a0000:#b00020:#e01b3c><bold>ULTRAS_TPA</bold></gradient> <dark_gray>•</dark_gray> <#b9b9c0>الأوامر"
+  - "<#c1121f>/tpa [لاعب] <dark_gray>-</dark_gray> <#b9b9c0>فتح قائمة الانتقال"
+  - "<#c1121f>/tpahere [لاعب] <dark_gray>-</dark_gray> <#b9b9c0>اطلب من لاعب أن ينتقل إليك"
+  - "<#c1121f>/tpaccept, /tpadeny, /tpacancel <dark_gray>-</dark_gray> <#b9b9c0>إدارة الطلبات"
+  - "<#c1121f>/uc_tpa block [لاعب] <dark_gray>-</dark_gray> <#b9b9c0>حظر أو فك حظر لاعب"
+  - "<#c1121f>/tpauto [on|off] <dark_gray>-</dark_gray> <#b9b9c0>القبول التلقائي للطلبات"
+  - "<#c1121f>/uc_tpa settings, sounds, requests, reload <dark_gray>-</dark_gray> <#b9b9c0>التفضيلات"
+  - "<#c1121f>/uc_tpa world (disable|enable|list) [العالم] <dark_gray>-</dark_gray> <#b9b9c0>للإدارة: تعطيل عالم"

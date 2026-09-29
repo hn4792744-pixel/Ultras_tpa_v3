@@ -1,0 +1,74 @@
+name: ULTRAS_TPA
+version: '${version}'
+main: com.ultras.tpa.UltrasTpa
+api-version: '1.21'
+author: UC_Hussein
+description: Premium GUI based TPA system by ULTRAS.
+load: POSTWORLD
+commands:
+  tpa:
+    description: Open the teleport menu or manage requests.
+    usage: /tpa [player|accept|deny|cancel|setting|here]
+    permission: ultras.tpa.use
+  tpahere:
+    description: Ask a player to teleport to you.
+    usage: /tpahere [player]
+    permission: ultras.tpa.use
+  tpaccept:
+    description: Accept a teleport request.
+    usage: /tpaccept [player]
+    aliases: [tpaaccept]
+    permission: ultras.tpa.use
+  tpadeny:
+    description: Deny a teleport request.
+    usage: /tpadeny [player]
+    permission: ultras.tpa.use
+  tpacancel:
+    description: Cancel your pending teleport request.
+    usage: /tpacancel
+    permission: ultras.tpa.use
+  tpasetting:
+    description: Open your TPA settings.
+    usage: /tpasetting
+    permission: ultras.tpa.use
+  tpauto:
+    description: Turn automatic acceptance of teleport requests on or off.
+    usage: /tpauto [on|off]
+    permission: ultras.tpa.use
+  uc_tpa:
+    description: ULTRAS_TPA settings and administration.
+    usage: /uc_tpa [block|sounds|requests|settings|auto|world|reload]
+    permission: ultras.tpa.use
+  uc_setting:
+    description: Open your TPA settings.
+    usage: /uc_setting
+    permission: ultras.tpa.use
+permissions:
+  ultras.tpa.use:
+    description: Use the TPA commands and menus.
+    default: true
+  ultras.tpa.send:
+    description: Send teleport requests.
+    default: true
+  ultras.tpa.receive:
+    description: Receive teleport requests.
+    default: true
+  ultras.tpa.autoaccept:
+    description: Use automatic acceptance of teleport requests.
+    default: true
+  ultras.tpa.world:
+    description: Disable or enable teleporting in a world (/uc_tpa world).
+    default: op
+  ultras.tpa.reload:
+    description: Reload ULTRAS_TPA.
+    default: op
+  ultras.tpa.bypass.cooldown:
+    description: Ignore the send cooldown.
+    default: op
+  ultras.tpa.admin:
+    description: All ULTRAS_TPA administration permissions.
+    default: op
+    children:
+      ultras.tpa.reload: true
+      ultras.tpa.world: true
+      ultras.tpa.bypass.cooldown: true

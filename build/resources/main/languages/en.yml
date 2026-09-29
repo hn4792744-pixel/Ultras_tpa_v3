@@ -1,0 +1,246 @@
+# ULTRAS_TPA language file (MiniMessage). Placeholders: <player>, <seconds>, <world>, <x>, <y>, <z>, <worlds>, <page>, <pages>, <type>, <language>.
+
+prefix: "<gradient:#5a0000:#b00020:#e01b3c><bold>ULTRAS</bold></gradient> <dark_gray>|</dark_gray> "
+language-name: "English"
+players-only: "<#a4161a>✕ <#b9b9c0>ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ʙʏ ᴘʟᴀʏᴇʀs."
+no-permission: "<#a4161a>✕ <#b9b9c0>ʏᴏᴜ ᴅᴏ ɴᴏᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ᴅᴏ ᴛʜᴀᴛ."
+player-not-found: "<#e0b84a>⚠ <#b9b9c0>ᴘʟᴀʏᴇʀ <white><player></white> ɴᴏᴛ ғᴏᴜɴᴅ."
+player-offline: "<#e0b84a>⚠ <#b9b9c0>ᴘʟᴀʏᴇʀ <white><player></white> ɪs ɴᴏᴛ ᴏɴʟɪɴᴇ."
+cannot-self: "<#a4161a>✕ <#b9b9c0>ʏᴏᴜ ᴄᴀɴɴᴏᴛ ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ʏᴏᴜʀsᴇʟғ."
+cannot-send-self: "<#e0b84a>⚠ <#b9b9c0>ʏᴏᴜ ᴄᴀɴɴᴏᴛ sᴇɴᴅ ᴀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ʏᴏᴜʀsᴇʟғ."
+request-sent-tpa: "<#c1121f>◇ <#b9b9c0>ᴛᴘᴀ ʀᴇǫᴜᴇsᴛ sᴇɴᴛ ᴛᴏ <white><player></white> <dark_gray>•</dark_gray> <seconds>s <dark_gray>»</dark_gray> <cancel>"
+request-received-tpa: "<#c1121f>◇ <#b9b9c0>ɴᴇᴡ ᴛᴘᴀ ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white> <dark_gray>•</dark_gray> <seconds>s <open>"
+accepted-tpa: "<#5fbf7a>✓ <#b9b9c0><white><player></white> ᴀᴄᴄᴇᴘᴛᴇᴅ ʏᴏᴜʀ ᴛᴘᴀ ʀᴇǫᴜᴇsᴛ."
+denied-tpa: "<#a4161a>✕ <#b9b9c0><white><player></white> ᴅᴇɴɪᴇᴅ ʏᴏᴜʀ ᴛᴘᴀ ʀᴇǫᴜᴇsᴛ."
+target-disabled-tpa: "<#e0b84a>⚠ <#b9b9c0><white><player></white> ʜᴀs ᴛᴘᴀ ᴅɪsᴀʙʟᴇᴅ."
+request-sent-tpahere: "<#c1121f>◇ <#b9b9c0>ᴛᴘᴀʜᴇʀᴇ ʀᴇǫᴜᴇsᴛ sᴇɴᴛ ᴛᴏ <white><player></white> <dark_gray>•</dark_gray> <seconds>s <dark_gray>»</dark_gray> <cancel>"
+request-received-tpahere: "<#c1121f>◇ <#b9b9c0>ɴᴇᴡ ᴛᴘᴀʜᴇʀᴇ ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white> <dark_gray>•</dark_gray> <seconds>s <open>"
+accepted-tpahere: "<#5fbf7a>✓ <#b9b9c0><white><player></white> ᴀᴄᴄᴇᴘᴛᴇᴅ ʏᴏᴜʀ ᴛᴘᴀʜᴇʀᴇ ʀᴇǫᴜᴇsᴛ."
+denied-tpahere: "<#a4161a>✕ <#b9b9c0><white><player></white> ᴅᴇɴɪᴇᴅ ʏᴏᴜʀ ᴛᴘᴀʜᴇʀᴇ ʀᴇǫᴜᴇsᴛ."
+target-disabled-tpahere: "<#e0b84a>⚠ <#b9b9c0><white><player></white> ʜᴀs ᴛᴘᴀʜᴇʀᴇ ᴅɪsᴀʙʟᴇᴅ."
+you-accepted: "<#5fbf7a>✓ <#b9b9c0>ʏᴏᴜ ᴀᴄᴄᴇᴘᴛᴇᴅ <white><player></white>."
+you-denied: "<#a4161a>✕ <#b9b9c0>ʏᴏᴜ ᴅᴇɴɪᴇᴅ <white><player></white>."
+no-pending: "<#c1121f>◇ <#b9b9c0>ɴᴏ ᴘᴇɴᴅɪɴɢ ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛs."
+no-request-from: "<#e0b84a>⚠ <#b9b9c0>ɴᴏ ᴘᴇɴᴅɪɴɢ ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white>."
+blocked-by-target: "<#a4161a>✕ <#b9b9c0>ʏᴏᴜ ᴄᴀɴɴᴏᴛ sᴇɴᴅ ʀᴇǫᴜᴇsᴛs ᴛᴏ <white><player></white>."
+already-pending: "<#e0b84a>⚠ <#b9b9c0>ʏᴏᴜ ᴀʟʀᴇᴀᴅʏ ʜᴀᴠᴇ ᴀ ᴘᴇɴᴅɪɴɢ ʀᴇǫᴜᴇsᴛ."
+cooldown: "<#e0b84a>⚠ <#b9b9c0>ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ <seconds>s ʙᴇғᴏʀᴇ sᴇɴᴅɪɴɢ ᴀɴᴏᴛʜᴇʀ ʀᴇǫᴜᴇsᴛ."
+request-unavailable: "<#e0b84a>⚠ <#b9b9c0>ᴛʜɪs ʀᴇǫᴜᴇsᴛ ɪs ɴᴏ ʟᴏɴɢᴇʀ ᴀᴠᴀɪʟᴀʙʟᴇ."
+cancel-unavailable: "<#e0b84a>⚠ <#b9b9c0>ᴛʜᴇ ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ ɪs ɴᴏ ʟᴏɴɢᴇʀ ᴀᴠᴀɪʟᴀʙʟᴇ."
+request-cancelled-sender: "<#c1121f>◇ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ ᴛᴏ <white><player></white> ᴄᴀɴᴄᴇʟʟᴇᴅ."
+request-cancelled-target: "<#c1121f>◇ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white> ᴡᴀs ᴄᴀɴᴄᴇʟʟᴇᴅ."
+request-expired: "<#c1121f>◇ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white> ᴇxᴘɪʀᴇᴅ."
+request-timed-out: "<#e0b84a>⚠ <#b9b9c0>ᴛʜᴇ ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ ᴛɪᴍᴇᴅ ᴏᴜᴛ."
+request-left: "<#e0b84a>⚠ <#b9b9c0>ᴛʜᴇ ʀᴇǫᴜᴇsᴛ ᴡᴀs ᴄᴀɴᴄᴇʟʟᴇᴅ ʙᴇᴄᴀᴜsᴇ <white><player></white> ʟᴇғᴛ."
+teleporting: "<#c1121f>◇ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ ᴛᴏ <white><player></white>, ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ..."
+countdown-actionbar: "<#c1121f>◇ <#b9b9c0>ᴛᴏ <white><player></white> <dark_gray>•</dark_gray> <#c1121f><seconds>s"
+countdown-chat: "<#c1121f>◇ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛɪɴɢ ᴛᴏ <white><player></white> ɪɴ <seconds>s"
+teleport-success: "<#5fbf7a>✓ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ ᴛᴏ <white><player></white> sᴜᴄᴄᴇssғᴜʟʟʏ."
+teleport-success-actionbar: "<#5fbf7a>◇ ᴛᴇʟᴇᴘᴏʀᴛᴇᴅ ✓"
+teleport-cancelled-moved: "<#a4161a>✕ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ <white><player></white> ᴄᴀɴᴄᴇʟʟᴇᴅ ʙᴇᴄᴀᴜsᴇ ʏᴏᴜ ᴍᴏᴠᴇᴅ."
+teleport-cancelled-left: "<#e0b84a>⚠ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛ ᴄᴀɴᴄᴇʟʟᴇᴅ ʙᴇᴄᴀᴜsᴇ <white><player></white> ʟᴇғᴛ."
+teleport-failed: "<#e0b84a>⚠ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ғᴀɪʟᴇᴅ."
+not-allowed-here: "<#e0b84a>⚠ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ɪs ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ɪɴ ᴛʜɪs ᴡᴏʀʟᴅ."
+already-teleporting: "<#e0b84a>⚠ <#b9b9c0>ᴀ ᴛᴇʟᴇᴘᴏʀᴛ ɪs ᴀʟʀᴇᴀᴅʏ ɪɴ ᴘʀᴏɢʀᴇss."
+player-blocked: "<#c1121f>◇ <#b9b9c0>ʏᴏᴜ ʙʟᴏᴄᴋᴇᴅ <white><player></white>."
+player-unblocked: "<#c1121f>◇ <#b9b9c0>ʏᴏᴜ ᴜɴʙʟᴏᴄᴋᴇᴅ <white><player></white>."
+cannot-block-self: "<#e0b84a>⚠ <#b9b9c0>ʏᴏᴜ ᴄᴀɴɴᴏᴛ ʙʟᴏᴄᴋ ʏᴏᴜʀsᴇʟғ."
+sounds-on: "<#c1121f>◇ <#b9b9c0>sᴏᴜɴᴅs ᴇɴᴀʙʟᴇᴅ."
+sounds-off: "<#c1121f>◇ <#b9b9c0>sᴏᴜɴᴅs ᴅɪsᴀʙʟᴇᴅ."
+reloaded: "<#5fbf7a>✓ <#b9b9c0>ᴄᴏɴғɪɢᴜʀᴀᴛɪᴏɴ ʀᴇʟᴏᴀᴅᴇᴅ."
+unknown-sub: "<#e0b84a>⚠ <#b9b9c0>ᴜɴᴋɴᴏᴡɴ sᴜʙᴄᴏᴍᴍᴀɴᴅ."
+usage-block: "<#e0b84a>⚠ <#b9b9c0>usage: /uc_tpa block (name)"
+auto-accepted-tpa: "<#5fbf7a>✓ <#b9b9c0>ᴛᴘᴀ ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white> ᴡᴀs ᴀᴄᴄᴇᴘᴛᴇᴅ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ."
+auto-accepted-tpahere: "<#5fbf7a>✓ <#b9b9c0>ᴛᴘᴀʜᴇʀᴇ ʀᴇǫᴜᴇsᴛ ғʀᴏᴍ <white><player></white> ᴡᴀs ᴀᴄᴄᴇᴘᴛᴇᴅ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ."
+auto-accept-on: "<#5fbf7a>✓ <#b9b9c0>ᴀᴜᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴇɴᴀʙʟᴇᴅ. ɪɴᴄᴏᴍɪɴɢ ʀᴇǫᴜᴇsᴛs ᴀʀᴇ ᴀᴄᴄᴇᴘᴛᴇᴅ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ."
+auto-accept-off: "<#c1121f>◇ <#b9b9c0>ᴀᴜᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴅɪsᴀʙʟᴇᴅ."
+auto-accept-unavailable: "<#e0b84a>⚠ <#b9b9c0>ᴀᴜᴛᴏ ᴀᴄᴄᴇᴘᴛ ɪs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛʜɪs sᴇʀᴠᴇʀ."
+usage-auto: "<#e0b84a>⚠ <#b9b9c0>usage: /tpauto (on|off)"
+target-world-disabled: "<#e0b84a>⚠ <#b9b9c0><white><player></white> ɪs ɪɴ ᴡᴏʀʟᴅ <world> ᴡʜᴇʀᴇ ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ɪs ᴅɪsᴀʙʟᴇᴅ."
+world-disabled: "<#5fbf7a>✓ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ɪs ɴᴏᴡ ᴅɪsᴀʙʟᴇᴅ ɪɴ ᴡᴏʀʟᴅ <world>."
+world-enabled: "<#5fbf7a>✓ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ɪs ɴᴏᴡ ᴇɴᴀʙʟᴇᴅ ɪɴ ᴡᴏʀʟᴅ <world>."
+world-already-disabled: "<#e0b84a>⚠ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ɪs ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ ɪɴ ᴡᴏʀʟᴅ <world>."
+world-already-enabled: "<#e0b84a>⚠ <#b9b9c0>ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ ɪɴ ᴡᴏʀʟᴅ <world>."
+world-not-found: "<#e0b84a>⚠ <#b9b9c0>ᴡᴏʀʟᴅ <world> ᴡᴀs ɴᴏᴛ ғᴏᴜɴᴅ."
+world-list: "<#c1121f>◇ <#b9b9c0>ᴅɪsᴀʙʟᴇᴅ ᴡᴏʀʟᴅs: <worlds>"
+world-list-empty: "<#c1121f>◇ <#b9b9c0>ɴᴏ ᴡᴏʀʟᴅ ʜᴀs ᴛᴇʟᴇᴘᴏʀᴛᴀᴛɪᴏɴ ᴅɪsᴀʙʟᴇᴅ."
+usage-world: "<#e0b84a>⚠ <#b9b9c0>usage: /uc_tpa world (disable|enable|list) [world]"
+button-open: "<gradient:#8b0000:#e01b3c>[ᴏᴘᴇɴ]</gradient>"
+button-cancel: "<gradient:#8b0000:#e01b3c>[ᴄᴀɴᴄᴇʟ]</gradient>"
+state-on: "<#5fbf7a>ᴏɴ"
+state-off: "<#c94c58>ᴏғғ"
+state-blocked: "<#c94c58>ʙʟᴏᴄᴋᴇᴅ"
+state-allowed: "<#5fbf7a>ᴀʟʟᴏᴡᴇᴅ"
+type-tpa: "ᴛᴘᴀ"
+type-tpahere: "ᴛᴘᴀʜᴇʀᴇ"
+info-status: "<#b9b9c0>sᴛᴀᴛᴜs: <#5fbf7a>ᴏɴʟɪɴᴇ"
+info-world: "<#b9b9c0>ᴡᴏʀʟᴅ: <white><world>"
+info-location: "<#b9b9c0>ʟᴏᴄᴀᴛɪᴏɴ: <white><x>, <y>, <z>"
+gui:
+  players:
+    title: "<gradient:#5a0000:#b00020:#e01b3c>ULTRAS</gradient> <dark_gray>»</dark_gray> sᴇʟᴇᴄᴛ ᴀ ᴘʟᴀʏᴇʀ"
+    head:
+      name: "<white><player>"
+      lore:
+        - "<gray>ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴏᴏsᴇ ᴛʜɪs ᴘʟᴀʏᴇʀ"
+    previous:
+      name: "<gray>ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ <dark_gray>(<page>/<pages>)"
+      lore: []
+    next:
+      name: "<gray>ɴᴇxᴛ ᴘᴀɢᴇ <dark_gray>(<page>/<pages>)"
+      lore: []
+    close:
+      name: "<#c94c58>ᴄʟᴏsᴇ"
+      lore: []
+  select:
+    title: "<gradient:#5a0000:#b00020:#e01b3c>ULTRAS</gradient> <dark_gray>»</dark_gray> ᴘʟᴀʏᴇʀ ᴏᴘᴛɪᴏɴs"
+    head:
+      name: "<white><player>"
+      lore: []
+    tpa:
+      name: "<#c1121f>ᴛᴘᴀ"
+      lore:
+        - "<gray>ᴀsᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ <white><player>"
+    tpahere:
+      name: "<#c1121f>ᴛᴘᴀ ʜᴇʀᴇ"
+      lore:
+        - "<gray>ᴀsᴋ <white><player></white> ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ʏᴏᴜ"
+    back:
+      name: "<gray>ʙᴀᴄᴋ"
+      lore: []
+    close:
+      name: "<#c94c58>ᴄʟᴏsᴇ"
+      lore: []
+  request:
+    title: "<gradient:#5a0000:#b00020:#e01b3c>ULTRAS</gradient> <dark_gray>»</dark_gray> ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ"
+    head:
+      name: "<white><player>"
+      lore:
+        - "<gray>ᴛʏᴘᴇ: <white><type>"
+        - "<gray>ᴇxᴘɪʀᴇs ɪɴ: <white><seconds>s"
+    accept:
+      name: "<#5fbf7a>ᴀᴄᴄᴇᴘᴛ"
+      lore:
+        - "<gray>ᴀᴄᴄᴇᴘᴛ ᴛʜɪs ʀᴇǫᴜᴇsᴛ"
+    deny:
+      name: "<#c94c58>ᴅᴇɴʏ"
+      lore:
+        - "<gray>ᴅᴇɴʏ ᴛʜɪs ʀᴇǫᴜᴇsᴛ"
+    block:
+      name: "<#e0b84a>ʙʟᴏᴄᴋ ᴘʟᴀʏᴇʀ"
+      lore:
+        - "<gray>ᴅᴇɴʏ ᴀɴᴅ ʙʟᴏᴄᴋ <white><player>"
+    back:
+      name: "<gray>ʙᴀᴄᴋ"
+      lore: []
+  requests:
+    title: "<gradient:#5a0000:#b00020:#e01b3c>ULTRAS</gradient> <dark_gray>»</dark_gray> ɪɴᴄᴏᴍɪɴɢ ʀᴇǫᴜᴇsᴛs"
+    head:
+      name: "<white><player>"
+      lore:
+        - "<gray>ᴛʏᴘᴇ: <white><type>"
+        - "<gray>ᴇxᴘɪʀᴇs ɪɴ: <white><seconds>s"
+        - ""
+        - "<#c1121f>ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ"
+    close:
+      name: "<#c94c58>ᴄʟᴏsᴇ"
+      lore: []
+  settings:
+    title: "<gradient:#5a0000:#b00020:#e01b3c>ULTRAS</gradient> <dark_gray>»</dark_gray> sᴇᴛᴛɪɴɢs"
+    receive-all:
+      name: "<c>ᴀʟʟ ʀᴇǫᴜᴇsᴛs"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>ᴀʟʟᴏᴡ ᴏʀ ʙʟᴏᴄᴋ ᴇᴠᴇʀʏ ᴛᴇʟᴇᴘᴏʀᴛ ʀᴇǫᴜᴇsᴛ"
+        - "<dark_gray>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    receive-tpa:
+      name: "<c>ᴛᴘᴀ ʀᴇǫᴜᴇsᴛs"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>ʀᴇᴄᴇɪᴠᴇ ʀᴇǫᴜᴇsᴛs ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ ᴛᴏ ʏᴏᴜ"
+        - "<dark_gray>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    receive-tpahere:
+      name: "<c>ᴛᴘᴀʜᴇʀᴇ ʀᴇǫᴜᴇsᴛs"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>ʀᴇᴄᴇɪᴠᴇ ʀᴇǫᴜᴇsᴛs ᴛᴏ ʙʀɪɴɢ ʏᴏᴜ ᴛᴏ ᴀ ᴘʟᴀʏᴇʀ"
+        - "<dark_gray>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    sounds:
+      name: "<c>sᴏᴜɴᴅs"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>ᴜʟᴛʀᴀs sᴏᴜɴᴅs ғᴏʀ ʏᴏᴜ ᴏɴʟʏ"
+        - "<dark_gray>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    auto-open:
+      name: "<c>ᴀᴜᴛᴏ ᴏᴘᴇɴ ʀᴇǫᴜᴇsᴛ ɢᴜɪ"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>ᴏᴘᴇɴ ᴛʜᴇ ʀᴇǫᴜᴇsᴛ ᴍᴇɴᴜ ᴏɴ ᴀʀʀɪᴠᴀʟ"
+        - "<dark_gray>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    show-info:
+      name: "<c>sʜᴏᴡ ᴍʏ ɪɴғᴏʀᴍᴀᴛɪᴏɴ"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>ʟᴇᴛ ᴏᴛʜᴇʀs sᴇᴇ ʏᴏᴜʀ ᴡᴏʀʟᴅ ᴀɴᴅ ʟᴏᴄᴀᴛɪᴏɴ"
+        - "<dark_gray>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    actionbar:
+      name: "<c>ᴀᴄᴛɪᴏɴʙᴀʀ ᴄᴏᴜɴᴛᴅᴏᴡɴ"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>sʜᴏᴡ ᴛʜᴇ ᴄᴏᴜɴᴛᴅᴏᴡɴ ᴀʙᴏᴠᴇ ʏᴏᴜʀ ʜᴇᴀʀᴛs"
+        - "<dark_gray>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    auto-accept:
+      name: "<c>ᴀᴜᴛᴏ ᴀᴄᴄᴇᴘᴛ"
+      lore:
+        - "<state>"
+        - ""
+        - "<gray>ᴀᴄᴄᴇᴘᴛ ɪɴᴄᴏᴍɪɴɢ ʀᴇǫᴜᴇsᴛs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ"
+        - "<dark_gray>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    language:
+      name: "<#c1121f>ʟᴀɴɢᴜᴀɢᴇ"
+      lore:
+        - "<gray>ᴄᴜʀʀᴇɴᴛ: <white><language>"
+        - "<dark_gray>ᴄʟɪᴄᴋ ᴛᴏ sᴡɪᴛᴄʜ"
+    block-players:
+      name: "<#c1121f>ʙʟᴏᴄᴋ ᴘʟᴀʏᴇʀs"
+      lore:
+        - "<gray>ᴍᴀɴᴀɢᴇ ᴡʜᴏ ᴄᴀɴ sᴇɴᴅ ʏᴏᴜ ʀᴇǫᴜᴇsᴛs"
+    close:
+      name: "<#c94c58>ᴄʟᴏsᴇ"
+      lore: []
+  block:
+    title: "<gradient:#5a0000:#b00020:#e01b3c>ULTRAS</gradient> <dark_gray>»</dark_gray> ʙʟᴏᴄᴋ ᴘʟᴀʏᴇʀs"
+    head:
+      name: "<c><player>"
+      lore:
+        - "<state>"
+        - ""
+        - "<dark_gray>ᴄʟɪᴄᴋ ᴛᴏ ᴛᴏɢɢʟᴇ"
+    previous:
+      name: "<gray>ᴘʀᴇᴠɪᴏᴜs ᴘᴀɢᴇ <dark_gray>(<page>/<pages>)"
+      lore: []
+    next:
+      name: "<gray>ɴᴇxᴛ ᴘᴀɢᴇ <dark_gray>(<page>/<pages>)"
+      lore: []
+    back:
+      name: "<gray>ʙᴀᴄᴋ"
+      lore: []
+    close:
+      name: "<#c94c58>ᴄʟᴏsᴇ"
+      lore: []
+help:
+  - "<gradient:#5a0000:#b00020:#e01b3c><bold>ULTRAS_TPA</bold></gradient> <dark_gray>•</dark_gray> <#b9b9c0>commands"
+  - "<#c1121f>/tpa [player] <dark_gray>-</dark_gray> <#b9b9c0>open the teleport menu"
+  - "<#c1121f>/tpahere [player] <dark_gray>-</dark_gray> <#b9b9c0>ask a player to come to you"
+  - "<#c1121f>/tpaccept, /tpadeny, /tpacancel <dark_gray>-</dark_gray> <#b9b9c0>manage requests"
+  - "<#c1121f>/uc_tpa block [player] <dark_gray>-</dark_gray> <#b9b9c0>block or unblock a player"
+  - "<#c1121f>/tpauto [on|off] <dark_gray>-</dark_gray> <#b9b9c0>auto accept requests"
+  - "<#c1121f>/uc_tpa settings, sounds, requests, reload <dark_gray>-</dark_gray> <#b9b9c0>preferences"
+  - "<#c1121f>/uc_tpa world (disable|enable|list) [world] <dark_gray>-</dark_gray> <#b9b9c0>admin: block a world"

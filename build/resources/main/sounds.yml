@@ -1,0 +1,20 @@
+# Every sound is a vanilla sound key (or a resource pack key). Use "none" to silence an event.
+sounds:
+  open-gui:        { sound: item.book.page_turn,       volume: 0.5, pitch: 1.3 }
+  click:           { sound: ui.button.click,           volume: 0.4, pitch: 1.2 }
+  send-request:    { sound: block.amethyst_block.chime, volume: 0.7, pitch: 1.2 }
+  receive-tpa:     { sound: block.amethyst_block.resonate, volume: 0.7, pitch: 1.0 }
+  receive-tpahere: { sound: block.amethyst_block.resonate, volume: 0.7, pitch: 1.3 }
+  accept:          { sound: block.note_block.chime,    volume: 0.7, pitch: 1.5 }
+  deny:            { sound: block.note_block.bass,     volume: 0.6, pitch: 0.7 }
+  block:           { sound: block.iron_trapdoor.close, volume: 0.5, pitch: 0.9 }
+  unblock:         { sound: block.iron_trapdoor.open,  volume: 0.5, pitch: 1.1 }
+  countdown:       { sound: block.note_block.harp,     volume: 0.4, pitch: 1.2 }
+  teleport-success: { sound: block.beacon.activate,    volume: 0.5, pitch: 1.6 }
+  teleport-fail:   { sound: block.note_block.bass,     volume: 0.6, pitch: 0.6 }
+  expired:         { sound: block.note_block.bass,     volume: 0.4, pitch: 0.8 }
+  cancel:          { sound: block.lever.click,         volume: 0.5, pitch: 0.9 }
+  error:           { sound: block.note_block.bass,     volume: 0.5, pitch: 0.5 }
+  denied-attempt:  { sound: block.chain.place,         volume: 0.5, pitch: 0.8 }
+  toggle-on:       { sound: block.note_block.chime,    volume: 0.5, pitch: 1.6 }
+  toggle-off:      { sound: block.note_block.chime,    volume: 0.5, pitch: 0.8 }
